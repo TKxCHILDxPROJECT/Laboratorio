@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratório de Informática</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Controle de Equipamentos do Laboratório</h1>
+        
+        <input type="text" id="nomeEquipamento" placeholder="Digite o equipamento...">
+        <br>
+        
+        <div>
+            <button onclick="adicionarEquipamento()">Adicionar</button>
+            <button onclick="removerEquipamento()">Remover</button>
+            <button onclick="exibirEquipamentos()">Exibir Todos</button>
+            <button onclick="quantidadeEquipamentos()">Quantidade</button>
+        </div>
+
+        <div id="telaResultado"></div>
+    </div>
+
+    <script src="jason.js"></script>
+</body>
+</html>
